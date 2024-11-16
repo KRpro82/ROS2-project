@@ -1,0 +1,8 @@
+# 요청(Request)
+int32 table_index    # 테이블 index
+string order_detail  # 주문의 세부 사항
+
+---
+# 응답(Response)
+bool success         # 요청 성공 여부
+string message       # 응답 메시지
